@@ -29,10 +29,10 @@ const Hero = (props: Props) => {
                     </div>
                   </div>
                   <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                    <Link href={'/'} className='mx-2 text-white hover:text-blue-500'><BsFacebook/></Link>
-                    <Link href={'/'} className='mx-2 text-white hover:text-blue-500'><BsTwitter/></Link>
-                    <Link href={'/'} className='mx-2 text-white hover:text-blue-500'><BsInstagram/></Link>
-                    <Link href={'/'} className='mx-2 text-white hover:text-blue-500'><BsGithub/></Link>
+                    <Link href={'/'} className='mx-2 text-xl text-white transition duration-400 hover:text-blue-500'><BsFacebook/></Link>
+                    <Link href={'/'} className='mx-2 text-xl text-white transition duration-400 hover:text-blue-500'><BsTwitter/></Link>
+                    <Link href={'/'} className='mx-2 text-xl text-white transition duration-400 hover:text-pink-500'><BsInstagram/></Link>
+                    <Link href={'/'} className='mx-2 text-xl text-white transition duration-400 hover:text-gray-500'><BsGithub/></Link>
                   </div>
                 </div>
               </div>
