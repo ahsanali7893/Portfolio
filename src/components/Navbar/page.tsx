@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
@@ -6,11 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { Url } from "next/dist/shared/lib/router/router";
 
 const Navbar = () => {
-  
-
-  const triggerNavItem = (url: Url) => {
-    
-  };
+  const triggerNavItem = (url: Url) => {};
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -20,10 +16,10 @@ const Navbar = () => {
 
   return (
     <div className="w-full z-50 top-0 py-3 sm:py-5 absolute">
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between px-5">
         <div>
           <Link href="/">
-            <h1 className="font-mono w-24 lg:w-48 text-2xl font-extrabold mx-12 text-pink-600">
+            <h1 className="font-mono w-24 lg:w-48 text-2xl font-extrabold text-pink-600">
               Ahsan.
             </h1>
           </Link>
@@ -76,9 +72,9 @@ const Navbar = () => {
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
           </div>
-          <div onClick={handleNav} className="md:hidden cursor-pointer pl-24">
-            <AiOutlineMenu size={25} />
-          </div>
+        </div>
+        <div onClick={handleNav} className=" cursor-pointer">
+          <AiOutlineMenu size={25} className="text-white" />
         </div>
       </div>
     </div>
@@ -86,4 +82,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
