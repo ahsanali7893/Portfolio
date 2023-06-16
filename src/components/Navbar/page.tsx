@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
           <ul className='hidden sm:flex'>
             <li className='ml-10 font-bold uppercase hover:border-b text-sm cursor-pointer'>
-              <Link href='/about'>About</Link>
+              <Link href='/about'className='ml-10 font-bold uppercase hover:border-b text-sm cursor-pointer'>About</Link>
             </li>
             <li className='ml-10 font-bold uppercase hover:border-b text-sm cursor-pointer'>
               <Link href='/service'>Service</Link>
