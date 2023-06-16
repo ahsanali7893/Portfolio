@@ -18,6 +18,7 @@ const Navbar = () => {
     setMobileMenu(false);
   };
 
+
   return (
     <div className="w-full z-50 top-0 py-3 sm:py-5 absolute">
       <div className="container flex items-center justify-between">
@@ -77,9 +78,9 @@ const Navbar = () => {
             </li>
           </div>
           <div className="block lg:hidden">
-            <button onClick={() => setMobileMenu(true)}>
-              <AiOutlineMenu className="text-4xl text-white" />
-            </button>
+          
+              <AiOutlineMenu onClick={() => setMobileMenu(mobileMenu)} className="text-4xl text-black mx-auto" />
+            
           </div>
         </div>
       </div>
@@ -89,9 +90,9 @@ const Navbar = () => {
         }`}
       >
         <div className="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
-            <button className="absolute top-0 right-0 mt-4 mr-4" onClick={() => setMobileMenu(false)}>
-                <RxCross1 className="h-10 w-auto"/>
-            </button>
+
+                <RxCross1 onClick={() => setMobileMenu(mobileMenu)} className="h-10 w-auto absolute top-0 right-0 mt-4 mr-4"/>
+            
             <ul className="mt-8 flex flex-col">
             <li className="py-2">
               <span
