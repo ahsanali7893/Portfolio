@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
                   <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                     <p className="font-body text-lg uppercase text-white">Let's Connect</p>
                     <div className="hidden sm:block">
-                    <AiOutlineArrowRight className="text-3xl text-yellow"/>
+                    <AiOutlineArrowRight className="text-3xl text-yellow-500"/>
                     </div>
                   </div>
                   <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
