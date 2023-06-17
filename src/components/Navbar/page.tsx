@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Url } from "next/dist/shared/lib/router/router";
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
             </h1>
           </Link>
         </div>
-        <div className="hidden lg:block">
+        <div className=" hidden sm:flex">
           <div className="flex items-center">
             <li className="group pl-6 list-none">
               <span
@@ -73,9 +73,20 @@ const Navbar = () => {
             </li>
           </div>
         </div>
-        <div onClick={handleNav} className=" cursor-pointer">
-          <AiOutlineMenu size={25} className="text-white" />
-        </div>
+          <div onClick={handleNav} className="sm:hidden cursor-pointer">
+            <AiOutlineMenu size={25} className="text-white" />
+          </div>
+      </div>
+      <div className={
+        menuOpen
+        ? 'fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-[rgba(0, 128, 128, 0.6)] p-10 ease-in duration-500'
+        : 'fixed right-[-100%] top-0 ease-in duration-500'
+      }>
+          <div className="flex w-full items-center justify-end">
+          <div onClick={handleNav} className="sm:hidden cursor-pointer">
+            <AiOutlineClose size={25} className="text-white" />
+          </div>
+          </div>  
       </div>
     </div>
   );
