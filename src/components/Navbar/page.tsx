@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full z-50 top-0 py-3 sm:py-5 absolute shadow-xl">
+    <div className="w-full z-50 top-0 py-3 sm:py-5  shadow-xl sticky">
       <div className="container flex items-center h-full w-full 2xl:px-16 justify-between px-5">
         <div>
           <Link href="/">
