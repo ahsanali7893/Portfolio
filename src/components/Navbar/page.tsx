@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full z-50 top-0 py-3 sm:py-5  shadow-xl sticky">
+    <div className="w-full z-50 top-0 py-3 sm:py-5 shadow-xl sticky" style={{ backgroundColor: 'rgba(0, 128, 128, 0.6)' }}>
       <div className="container flex items-center h-full w-full 2xl:px-16 justify-between px-5">
         <div>
           <Link href="/">
@@ -86,7 +86,7 @@ const Navbar = () => {
             : "fixed right-[-100%] top-0 ease-in duration-500"
         }
       >
-        <div className="flex w-[110%] h-[-50rem] items-center justify-end">
+        <div className="flex w-full items-center justify-end">
           <div onClick={handleNav} className="sm:hidden cursor-pointer">
             <AiOutlineClose size={25} className="text-white" />
           </div>
