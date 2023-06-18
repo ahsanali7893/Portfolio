@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-import "@/app/globals.css"
 
 const About = () => {
   return (
