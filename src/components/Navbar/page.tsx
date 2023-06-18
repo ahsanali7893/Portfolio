@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
             <li className="group pl-6 list-none">
               <Link
-                href={"/portfolio"}
+                href={"#portfolio"}
                 onClick={() => triggerNavItem("#portfolio")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className="flex-col py-10 text-center">
           <li className="group pl-6 list-none">
             <Link
-              href={"/about"}
+              href={"#about"}
               onClick={() => triggerNavItem("#about")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -98,7 +98,7 @@ const Navbar = () => {
           </li>
           <li className="group pl-6 list-none">
             <Link
-              href={"#work"}
+              href={"#skill"}
               onClick={() => triggerNavItem("#work")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -106,16 +106,7 @@ const Navbar = () => {
             </Link>
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
-          <li className="group pl-6 list-none">
-            <Link
-              href={"#service"}
-              onClick={() => triggerNavItem("#service")}
-              className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >
-              Service
-            </Link>
-            <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
-          </li>
+          
           <li className="group pl-6 list-none">
             <Link
               href={"/portfolio"}
