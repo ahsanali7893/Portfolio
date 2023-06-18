@@ -102,7 +102,7 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'/work'}
+            <Link href={'#work'}
               onClick={() => triggerNavItem("#work")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -111,7 +111,7 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'/service'}
+            <Link href={'#service'}
               onClick={() => triggerNavItem("#service")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
