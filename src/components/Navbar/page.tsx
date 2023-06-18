@@ -2,9 +2,10 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
+import { Url } from "next/dist/shared/lib/router/router";
 
 const Navbar = () => {
-  const triggerNavItem = (url: string) => void { Boolean };
+  const triggerNavItem = (url:string) => {};
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -59,7 +60,7 @@ const Navbar = () => {
             </li>
             <li className="group pl-6 list-none">
               <Link
-                href={"/contact"}
+                href={"#contact"}
                 onClick={() => triggerNavItem("#contact")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -102,14 +103,14 @@ const Navbar = () => {
               onClick={() => triggerNavItem("#work")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
-              Work
+              Skill
             </Link>
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
 
           <li className="group pl-6 list-none">
             <Link
-              href={"/portfolio"}
+              href={"#portfolio"}
               onClick={() => triggerNavItem("#portfolio")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -119,7 +120,7 @@ const Navbar = () => {
           </li>
           <li className="group pl-6 list-none">
             <Link
-              href={"/contact"}
+              href={"#contact"}
               onClick={() => triggerNavItem("#contact")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
