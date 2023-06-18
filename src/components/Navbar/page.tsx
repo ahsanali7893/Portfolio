@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
-
 const Navbar = () => {
   const triggerNavItem = (url: string) => void{Boolean};
 
@@ -45,16 +44,6 @@ const Navbar = () => {
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
                 Skill
-              </Link>
-              <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
-            </li>
-            <li className="group pl-6 list-none">
-              <Link
-                href={"/service"}
-                onClick={() => triggerNavItem("#service")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Service
               </Link>
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
