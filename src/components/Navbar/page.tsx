@@ -4,14 +4,14 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
 const Navbar = () => {
-  const triggerNavItem = (url: string) => void{Boolean};
+  const triggerNavItem = (url: string) => void { Boolean };
 
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
   };
-  
+
   return (
     <div
       className="w-full opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky"
@@ -106,7 +106,7 @@ const Navbar = () => {
             </Link>
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
-          
+
           <li className="group pl-6 list-none">
             <Link
               href={"/portfolio"}
