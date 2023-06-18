@@ -1,23 +1,24 @@
-"use client"
-import Link from "next/link";
+"use client";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
+import "style/scroll.css";
 
 const Navbar = () => {
-
-  const triggerNavItem = (url: string) => {
-  
-  };
+  const triggerNavItem = (url: string) => void{Boolean};
 
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
   };
-
+  
   return (
-    <div className="w-full opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky" style={{ backgroundColor: 'rgba(0, 128, 128, 0.6)' }}>
+    <div
+      className="w-full opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky"
+      style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
+    >
       <div className="container flex items-center h-full w-full 2xl:px-16 justify-between px-5">
         <div>
           <Link href="/">
@@ -29,7 +30,8 @@ const Navbar = () => {
         <div className=" hidden sm:flex">
           <div className="flex items-center">
             <li className="group pl-6 list-none">
-              <Link href={'/about'}
+              <Link
+                href={"#about"}
                 onClick={() => triggerNavItem("#about")}
                 className="cursor-pointer py-4 pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -38,16 +40,18 @@ const Navbar = () => {
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
             <li className="group pl-6 list-none">
-              <Link href={'/work'}
+              <Link
+                href={"#skill"}
                 onClick={() => triggerNavItem("#work")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
-                Work
+                Skill
               </Link>
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
             <li className="group pl-6 list-none">
-              <Link href={'/service'}
+              <Link
+                href={"/service"}
                 onClick={() => triggerNavItem("#service")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -56,7 +60,8 @@ const Navbar = () => {
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
             <li className="group pl-6 list-none">
-              <Link href={'/portfolio'}
+              <Link
+                href={"/portfolio"}
                 onClick={() => triggerNavItem("#portfolio")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -65,7 +70,8 @@ const Navbar = () => {
               <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
             </li>
             <li className="group pl-6 list-none">
-              <Link href={'/contact'}
+              <Link
+                href={"/contact"}
                 onClick={() => triggerNavItem("#contact")}
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
@@ -93,7 +99,8 @@ const Navbar = () => {
         </div>
         <div className="flex-col py-10 text-center">
           <li className="group pl-6 list-none">
-            <Link href={'/about'}
+            <Link
+              href={"/about"}
               onClick={() => triggerNavItem("#about")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -102,7 +109,8 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'#work'}
+            <Link
+              href={"#work"}
               onClick={() => triggerNavItem("#work")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -111,7 +119,8 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'#service'}
+            <Link
+              href={"#service"}
               onClick={() => triggerNavItem("#service")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -120,7 +129,8 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'/portfolio'}
+            <Link
+              href={"/portfolio"}
               onClick={() => triggerNavItem("#portfolio")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
@@ -129,7 +139,8 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link href={'/contact'}
+            <Link
+              href={"/contact"}
               onClick={() => triggerNavItem("#contact")}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >

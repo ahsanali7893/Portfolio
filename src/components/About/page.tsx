@@ -5,6 +5,7 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const About = () => {
   return (
+    <section id="about">
     <div className="bg-gray-50" id="about">
       <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row">
         <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
@@ -63,6 +64,7 @@ const About = () => {
       </div>
       
     </div>
+    </section>
   );
 };
 
