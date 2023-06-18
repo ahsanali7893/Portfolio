@@ -15,6 +15,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-2 duration-500">
                 <img src="./html.png" alt="html" className="cursor-pointer " />
+                <p className='font-bold hover:text-orange-500 duration-500 cursor-pointer'>HTML</p>
               </div>
             </div>
           </div>
@@ -22,6 +23,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-[-8px] duration-500">
                 <img src="./css.png" alt="html" className="cursor-pointer " />
+              <p className='font-bold hover:text-blue-600 duration-500 cursor-pointer'>CSS</p>
               </div>
             </div>
           </div>
@@ -29,6 +31,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-[-8px] duration-500">
                 <img src="./tailwind.png" alt="html" className="cursor-pointer " />
+                <p className='font-bold hover:text-blue-700 duration-500 cursor-pointer'>Tailwind</p>
               </div>
             </div>
           </div>
@@ -36,6 +39,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-2 duration-500">
                 <img src="./js.png" alt="html" className="cursor-pointer " />
+                <p className='font-bold hover:text-yellow-500 duration-500 cursor-pointer'>JavaScript</p>
               </div>
             </div>
           </div>
@@ -43,6 +47,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-[-8px] duration-500">
                 <img src="./react.png" alt="html" className="cursor-pointer " />
+                <p className='font-bold hover:text-sky-500 duration-500 cursor-pointer'>React JS</p>
               </div>
             </div>
           </div>
@@ -50,6 +55,7 @@ const Skill = (props: Props) => {
             <div className="mx-auto  h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hover:translate-x-[-8px] duration-500">
                 <img src="./next.png" alt="html" className="cursor-pointer" />
+                <p className='font-bold cursor-pointer'>NEXT JS</p>
               </div>
             </div>
           </div>
