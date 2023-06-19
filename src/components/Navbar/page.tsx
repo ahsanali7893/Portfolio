@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
-import { Url } from "next/dist/shared/lib/router/router";
+
 
 const Navbar = () => {
-  const triggerNavItem = (url:string) => {};
+  
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             <li className="group pl-6 list-none">
               <Link
                 href={"#about"}
-                onClick={() => triggerNavItem("#about")}
+                
                 className="cursor-pointer py-4 pt-0.5 font-header font-semibold uppercase text-white"
               >
                 About
@@ -41,7 +41,7 @@ const Navbar = () => {
             <li className="group pl-6 list-none">
               <Link
                 href={"#skill"}
-                onClick={() => triggerNavItem("#work")}
+               
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
                 Skill
@@ -51,7 +51,7 @@ const Navbar = () => {
             <li className="group pl-6 list-none">
               <Link
                 href={"#portfolio"}
-                onClick={() => triggerNavItem("#portfolio")}
+                
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
                 Portfolio
@@ -61,7 +61,7 @@ const Navbar = () => {
             <li className="group pl-6 list-none">
               <Link
                 href={"#contact"}
-                onClick={() => triggerNavItem("#contact")}
+               
                 className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
               >
                 Contact
@@ -90,7 +90,7 @@ const Navbar = () => {
           <li className="group pl-6 list-none">
             <Link
               href={"#about"}
-              onClick={() => triggerNavItem("#about")}
+              
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
               About
@@ -100,7 +100,7 @@ const Navbar = () => {
           <li className="group pl-6 list-none">
             <Link
               href={"#skill"}
-              onClick={() => triggerNavItem("#work")}
+              
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
               Skill
@@ -111,7 +111,7 @@ const Navbar = () => {
           <li className="group pl-6 list-none">
             <Link
               href={"#portfolio"}
-              onClick={() => triggerNavItem("#portfolio")}
+              
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
               Portfolio
@@ -121,7 +121,7 @@ const Navbar = () => {
           <li className="group pl-6 list-none">
             <Link
               href={"#contact"}
-              onClick={() => triggerNavItem("#contact")}
+              
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
               Contact
