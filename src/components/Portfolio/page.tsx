@@ -14,18 +14,30 @@ const Portfolio = (props: Props) => {
           Here's what I have done with the past
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-            <Link href={'/'} className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/Portfolio.png" alt="" />
-            </Link>
-            <Link href={'/'} className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/Portfolio.png" alt="" />
-            </Link>
-            <Link href={'/'} className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/Portfolio.png" alt="" />
-            </Link>
-            <Link href={'/'} className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/Portfolio.png" alt="" />
-            </Link>
+          <Link
+            href={"/"}
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img src="/Portfolio.png" alt="" />
+          </Link>
+          <Link
+            href={"/"}
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img src="/Portfolio.png" alt="" />
+          </Link>
+          <Link
+            href={"/"}
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img src="/Portfolio.png" alt="" />
+          </Link>
+          <Link
+            href={"/"}
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img src="/Portfolio.png" alt="" />
+          </Link>
         </div>
       </div>
     </section>
