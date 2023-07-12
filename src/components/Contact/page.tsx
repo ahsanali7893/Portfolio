@@ -15,8 +15,8 @@ const Contact = (props: Props) => {
         <div className="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6"></div>
         <form className="mx-auto w-full pt-10 sm:w-3/4">
             <div className="flex flex-col md:flex-row">
-                <input className="mr-3 w-full rounded border border-gray-100 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5" type="text" placeholder="Name" id="name"/>
-                <input className="mt-6 w-full rounded border border-gray-100 px-4 py-3 font-body md:ml-3 md:mt-0 text-black md:w-1/2 lg:ml-5" type="text" placeholder="Email" id="email"/>
+                <input className="mr-3 w-full rounded border border-gray-200 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5" type="text" placeholder="Name" id="name"/>
+                <input className="mt-6 w-full rounded border border-gray-200 px-4 py-3 font-body md:ml-3 md:mt-0 text-black md:w-1/2 lg:ml-5" type="text" placeholder="Email" id="email"/>
             </div>
         </form>
       </div>
