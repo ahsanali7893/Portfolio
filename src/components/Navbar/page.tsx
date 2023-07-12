@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div className=" hidden sm:flex">
           <div className="flex items-center">
-            <li className="group pl-6 list-none">
+            <li className="group pl-6 list-none py-4">
               <Link
                 href={"#about"}
                 className="cursor-pointer py-4 pt-0.5 font-header font-semibold uppercase text-white"
