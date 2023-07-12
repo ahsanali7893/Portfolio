@@ -1,5 +1,7 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { BiCurrentLocation } from "react-icons/bi"
 
 type Props = {};
 
@@ -32,7 +34,16 @@ const Contact = (props: Props) => {
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">+923171370439</p>
           </div>
           <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
-            <div className="flex items-center"></div>
+            <div className="flex items-center">
+              <AiOutlineMail className="text-2xl text-grey-40"/>
+              <p className="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">My Email</p>
+            </div>
+            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">ahsan3916902@gmail.com</p>
+          </div>
+          <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
+            <div className="flex items-center">
+            <BiCurrentLocation/>
+            </div>
           </div>
         </div>
       </div>
