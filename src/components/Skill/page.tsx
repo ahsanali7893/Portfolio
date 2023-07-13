@@ -27,7 +27,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded  px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-[-8px] duration-500">
+                <div className="transform transition-all hover:scale-110 duration-500">
                   <img src="./css.png" alt="html" className="cursor-pointer " />
                   <p className="font-bold hover:text-blue-600 duration-500 cursor-pointer">
                     CSS
@@ -37,7 +37,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-[-8px] duration-500">
+                <div className="transform transition-all hover:scale-110 duration-500">
                   <img
                     src="./tailwind.png"
                     alt="html"
@@ -61,7 +61,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-[-8px] duration-500">
+                <div className="transform transition-all hover:scale-110">
                   <img
                     src="./react.png"
                     alt="html"
@@ -75,7 +75,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded px-8 py-12">
               <div className="mx-auto  h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-[-8px] duration-500">
+                <div className="transform transition-all hover:scale-110 duration-500">
                   <img src="./next.png" alt="html" className="cursor-pointer" />
                   <p className="font-bold cursor-pointer">NEXT JS</p>
                 </div>

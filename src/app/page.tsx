@@ -17,7 +17,7 @@ export default function Home() {
       <Skill/>
       <Portfolio/>
       <Contact/>
-      <Footer/>
+      <Footer />
       
     </>
   );
