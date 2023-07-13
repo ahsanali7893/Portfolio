@@ -16,13 +16,32 @@ const About = () => {
               I'm Ahsan Ali, a Web developer
             </h4>
             <p className="pt-6 font-body text-center leading-relaxed text-grey-20">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Welcome to my portfolio! I'm a frontend web developer skilled in
+              HTML, CSS, JavaScript, Next.js, React, Tailwind CSS, and
+              TypeScript. With a passion for crafting engaging user experiences,
+              I specialize in creating modern and responsive websites. Using
+              HTML, I structure the content of web pages, ensuring accessibility
+              and semantic markup. CSS is my tool of choice for designing
+              visually appealing interfaces, implementing custom layouts, and
+              creating a consistent user experience across devices. JavaScript
+              is where I bring interactivity to life. I leverage its power to
+              add dynamic features, handle user interactions, and fetch data
+              from servers. With Next.js, I build fast and optimized
+              applications, utilizing server-side rendering and static site
+              generation for seamless user experiences. React is my go-to
+              library for building scalable and reusable UI components. Its
+              component-based architecture allows me to efficiently manage state
+              and behavior, creating complex applications with ease. I also
+              leverage TypeScript to enhance code quality, catch errors early,
+              and improve collaboration in larger projects. In addition, I
+              utilize Tailwind CSS, a utility-first framework, to rapidly build
+              custom designs using pre-built classes. This ensures a responsive
+              and mobile-first approach while maintaining flexibility and a
+              unique visual identity. I'm excited to showcase my projects and
+              demonstrate how I've applied my skills to create stunning web
+              experiences. Take a look at my portfolio to explore my work and
+              see how I can contribute to your next web development project.
+              Let's collaborate and bring your ideas to life!
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-center">
               <div className="flex  justify-center sm:justify-start">

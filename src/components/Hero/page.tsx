@@ -15,7 +15,7 @@ const Hero = (props: Props) => {
       >
         <div className="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
-          <div className="flex flex-col items-center justify-center lg:flex-row">
+          <div className="flex flex-col items-center justify-center lg:flex-row max-h-full">
             <div className="rounded-full border-8 border-primary shadow-xl">
               <img
                 src="/dev.jpeg"
