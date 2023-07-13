@@ -13,7 +13,7 @@ const Skill = (props: Props) => {
           <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
             <div className="group rounded-full px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-2 duration-500">
+                <div className="transform transition-all hover:scale-110 duration-500">
                   <img
                     src="./html.png"
                     alt="html"
@@ -51,7 +51,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="hover:translate-x-2 duration-500">
+                <div className="transform transition-all hover:scale-110 duration-500">
                   <img src="./js.png" alt="html" className="cursor-pointer " />
                   <p className="font-bold hover:text-yellow-500 duration-500 cursor-pointer">
                     JavaScript
@@ -61,7 +61,7 @@ const Skill = (props: Props) => {
             </div>
             <div className="group rounded px-8 py-12">
               <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div className="transform transition-all hover:scale-110">
+              <div className="transform transition-all hover:scale-110 duration-500">
                   <img
                     src="./react.png"
                     alt="html"
