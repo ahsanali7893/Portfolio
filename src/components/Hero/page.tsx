@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from 'react';
 
 type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = (props: Props) => {   
  
   return (
     <div>
