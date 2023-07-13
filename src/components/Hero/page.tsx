@@ -10,7 +10,7 @@ const Hero = (props: Props) => {
   return (
     <div>
       <div
-        className="relative bg-cover bg-center bg-no-repeat py-8"
+        className="relative bg-cover bg-center bg-no-repeat py-8 "
         style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
       >
         <div className="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
