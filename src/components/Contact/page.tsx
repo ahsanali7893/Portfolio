@@ -38,7 +38,7 @@ const Contact = (props: Props) => {
             cols={30}
             rows={10}
           ></textarea>
-          <button className="mt-6 mx-auto flex items-center justify-center rounded bg-blue-600 px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-gray-50">
+          <button className="mt-6 mx-auto flex items-center justify-center rounded bg-gray-400 px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-sky-400 hover:text-white duration-500">
             Send
           </button>
         </form>
