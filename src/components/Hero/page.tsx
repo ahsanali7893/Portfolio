@@ -2,6 +2,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
+import Image from "next/image";
 
 type Props = {};
 
@@ -16,7 +17,7 @@ const Hero = (props: Props) => {
         <div className="container relative z-30 pb-12 sm:pt-56 sm:pb-48 lg:pt-20 lg:pb-48 ">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full border-8 border-primary shadow-xl">
-              <img
+              <Image height={20} width={200}
                 src="/dev.jpeg"
                 className="h-48 rounded-full sm:h-56"
                 alt=""      

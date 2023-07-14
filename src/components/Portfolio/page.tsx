@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 type Props = {};
 
@@ -18,25 +18,25 @@ const Portfolio = (props: Props) => {
             href={"/"}
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img src="/Portfolio.png" alt="" />
+            <Image width={1500} height={100} src="/Portfolio.png" alt="" />
           </Link>
           <Link
             href={"/"}
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img src="/Portfolio.png" alt="" />
+            <Image width={1500} height={100} src="/Portfolio.png" alt="" />
           </Link>
           <Link
             href={"/"}
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img src="/Portfolio.png" alt="" />
+            <Image width={1500} height={100} src="/Portfolio.png" alt="" />
           </Link>
           <Link
             href={"/"}
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img src="/Portfolio.png" alt="" />
+            <Image width={1500} height={100} src="/Portfolio.png" alt="" />
           </Link>
         </div>
       </div>
