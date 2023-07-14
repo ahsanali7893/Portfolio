@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";
