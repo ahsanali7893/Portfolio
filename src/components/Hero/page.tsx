@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
                 Hello!{" "}
-                <span className="text-pink-600 text-5xl">I am Ahsan Ali</span>
+                <span className="text-pink-600 text-5xl">I am Ahsan Ali</span>   
               </h1>
 
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
