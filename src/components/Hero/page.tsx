@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
               <img
                 src="/dev.jpeg"
                 className="h-48 rounded-full sm:h-56"
-                alt=""   
+                alt=""      
               />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
