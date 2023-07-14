@@ -1,7 +1,6 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
-import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
 type Props = {};
