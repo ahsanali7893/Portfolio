@@ -9,7 +9,7 @@ const Contact = (props: Props) => {
     <section id="contact">
       <div className="container py-16 md:py-20 max-w-4xl mx-auto">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
-          Here's&apos; a contact form
+          Here&apos;s a contact form
         </h2>
         <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
           Have&apos; Any Questions?
