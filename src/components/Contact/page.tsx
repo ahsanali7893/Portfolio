@@ -7,7 +7,7 @@ type Props = {};
 const Contact = (props: Props) => {
   return (
     <section id="contact">
-      <div className="container py-16 md:py-20 max-w-4xl mx-auto">
+      <div className="container py-16 md:py-20 max-w-4xl mx-auto px-5">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
           Here&apos;s a contact form
         </h2>
