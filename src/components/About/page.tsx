@@ -9,13 +9,13 @@ const About = () => {
         <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
             <h2 className="font-header text-4xl font-semibold text-center uppercase text-primary sm:text-5xl lg:text-6xl text-[#66b3b3]">
-              Who Iam i?
+              Who I am i?
             </h2>
             <h4 className="pt-6 font-header text-xl text-center font-medium text-black sm:text-2xl lg:text-3xl">
-              I'm Ahsan Ali, a Web developer
+              I&apos;m Ahsan Ali, a Web developer
             </h4>
             <p className="pt-6 font-body text-center leading-relaxed text-grey-20">
-              Welcome to my portfolio! I'm a frontend web developer skilled in
+              Welcome to my portfolio! I&apos;m a frontend web developer skilled in
               HTML, CSS, JavaScript, Next.js, React, Tailwind CSS, and
               TypeScript. With a passion for crafting engaging user experiences,
               I specialize in creating modern and responsive websites. Using
@@ -36,16 +36,16 @@ const About = () => {
               utilize Tailwind CSS, a utility-first framework, to rapidly build
               custom designs using pre-built classes. This ensures a responsive
               and mobile-first approach while maintaining flexibility and a
-              unique visual identity. I'm excited to showcase my projects and
-              demonstrate how I've applied my skills to create stunning web
+              unique visual identity. I&apos;m excited to showcase my projects and
+              demonstrate how I&apos;ve applied my skills to create stunning web
               experiences. Take a look at my portfolio to explore my work and
               see how I can contribute to your next web development project.
-              Let's collaborate and bring your ideas to life!
+              Let&apos;s collaborate and bring your ideas to life!
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-center">
-              <div className="flex  justify-center sm:justify-start">
+              <div className="flex justify-center sm:justify-start">
                 <p className="font-body text-lg font-semibold uppercase text-gray-400">
-                  Let's Connect
+                  Let&apos;s Connect
                 </p>
                 <div className="hidden sm:block items-center">
                   <AiOutlineArrowRight className="text-3xl text-yellow-500" />
