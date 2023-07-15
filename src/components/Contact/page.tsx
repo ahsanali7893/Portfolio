@@ -72,7 +72,7 @@ const Contact = (props: Props) => {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              Pakistan, Sindh, Hyderabad
+              Hyderabad, Sindh, Pakistan
             </p>
           </div>
         </div>

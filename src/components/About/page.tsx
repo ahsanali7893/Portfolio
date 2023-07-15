@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="bg-gray-50" id="about">
-        <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row">
+        <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row px-5">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
             <h2 className="font-header text-4xl font-semibold text-center uppercase text-primary sm:text-5xl lg:text-6xl text-[#66b3b3]">
               Who I am i?
