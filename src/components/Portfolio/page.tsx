@@ -6,7 +6,7 @@ type Props = {};
 const Portfolio = (props: Props) => {
   return (
     <section className="bg-gray-50" id="portfolio">
-      <div className="container py-16 md:py-20 max-w-6xl mx-auto">
+      <div className="container py-16 md:py-20 max-w-6xl mx-auto px-5">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
           Check Out My Portfolio
         </h2>
