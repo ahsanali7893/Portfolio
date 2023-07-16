@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="w-full opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky"
+      className="w-full opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky max-w-6xl mx-auto"
       style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
     >
       <div className="container flex items-center h-full w-full 2xl:px-16 justify-between px-5">
