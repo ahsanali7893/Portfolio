@@ -79,7 +79,7 @@ const Navbar = () => {
             <AiOutlineClose size={25} className="text-white" />
           </div>
         </div>
-        <div className="flex-col space-y-4 py-10 text-center">
+        <div className="flex-col py-9 sm:py-10 text-center">
           <li className="group pl-6 list-none">
             <Link
               href={"#about"}
