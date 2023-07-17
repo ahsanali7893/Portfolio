@@ -6,7 +6,7 @@ const Skill = (props: Props) => {
   return (
     <div>
       <section id="skill">
-        <div className="container py-16 md:py-20">
+        <div className="container py-16 md:py-20 max-w-6xl mx-auto">
           <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] text-primary sm:text-5xl lg:text-6xl">
             Skills
           </h2>
