@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
         style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
       >
         <div className="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
-        <div className="container relative z-30 pb-12 sm:pt-56 sm:pb-48 lg:pt-20 lg:pb-48 ">
+        <div className="container relative z-30 pb-12 sm:pt-56 sm:pb-48 lg:pt-20 lg:pb-48 max-w-6xl mx-auto ">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full border-8 border-primary shadow-xl">
               <Image height={20} width={200}
