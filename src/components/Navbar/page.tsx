@@ -90,7 +90,7 @@ const Navbar = () => {
             <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow-500"></span>
           </li>
           <li className="group pl-6 list-none">
-            <Link
+            <Link  
               href={"#skill"}
               className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
             >
