@@ -7,7 +7,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div>   
+    <div>     
       <div
         className="relative bg-cover bg-center bg-no-repeat py-8 max-h-screen items-center justify-center "
         style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
