@@ -15,32 +15,19 @@ const About = () => {
               I&apos;m Ahsan Ali, a Web developer
             </h4>
             <p className="pt-6 font-body text-center leading-relaxed text-grey-20">
-              Welcome to my portfolio! I&apos;m a frontend web developer skilled in
-              HTML, CSS, JavaScript, Next.js, React, Tailwind CSS, and
-              TypeScript. With a passion for crafting engaging user experiences,
-              I specialize in creating modern and responsive websites. Using
-              HTML, I structure the content of web pages, ensuring accessibility
-              and semantic markup. CSS is my tool of choice for designing
-              visually appealing interfaces, implementing custom layouts, and
-              creating a consistent user experience across devices. JavaScript
-              is where I bring interactivity to life. I leverage its power to
-              add dynamic features, handle user interactions, and fetch data
-              from servers. With Next.js, I build fast and optimized
-              applications, utilizing server-side rendering and static site
-              generation for seamless user experiences. React is my go-to
-              library for building scalable and reusable UI components. Its
-              component-based architecture allows me to efficiently manage state
-              and behavior, creating complex applications with ease. I also
-              leverage TypeScript to enhance code quality, catch errors early,
-              and improve collaboration in larger projects. In addition, I
-              utilize Tailwind CSS, a utility-first framework, to rapidly build
-              custom designs using pre-built classes. This ensures a responsive
-              and mobile-first approach while maintaining flexibility and a
-              unique visual identity. I&apos;m excited to showcase my projects and
-              demonstrate how I&apos;ve applied my skills to create stunning web
-              experiences. Take a look at my portfolio to explore my work and
-              see how I can contribute to your next web development project.
-              Let&apos;s collaborate and bring your ideas to life!
+              My portfolio showcases my expertise in Next.js, React, Tailwind
+              CSS, HTML, CSS, JavaScript, TypeScript, GitHub, and Git. Through
+              my projects, I demonstrate proficiency in building modern web
+              applications using these technologies. With a strong focus on
+              front-end development, I create visually appealing and
+              user-friendly interfaces. By leveraging the power of Next.js and
+              React, I ensure efficient and dynamic web solutions. Tailwind CSS
+              helps me to streamline my styling process, while TypeScript
+              enhances the reliability and scalability of my code. I also
+              utilize GitHub and Git for version control and collaboration. My
+              portfolio reflects my skills in creating responsive and
+              high-performance websites that deliver an exceptional user
+              experience.
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-center">
               <div className="flex justify-center sm:justify-start">
