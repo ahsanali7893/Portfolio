@@ -21,7 +21,7 @@ const Portfolio = (props: Props) => {
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
           </Link>
           <Link
-            href="textutilsby.vercel.app"
+            href="https://textutilsby.vercel.app"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <Image width={1400} height={100} src="/textutils.PNG" alt="" />
