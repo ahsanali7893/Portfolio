@@ -13,25 +13,25 @@ const Footer = (props: Props) => {
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
           <Link
-            href={"/"}
+            href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
             className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
           >
             <BsFacebook />
           </Link>
           <Link
-            href={"/"}
+            href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
             className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
           >
             <BsTwitter />
           </Link>
           <Link
-            href={"/"}
+            href="https://instagram.com/ahsan_ali_panhwa?igshid=MzNlNGNkZWQ4Mg=="
             className="mx-2 text-xl text-white transition duration-400 hover:text-pink-500"
           >
             <BsInstagram />
           </Link>
           <Link
-            href={"/"}
+            href="https://github.com/ahsanali7893"
             className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
           >
             <BsGithub />
