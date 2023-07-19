@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full border-8 border-primary shadow-xl">
               <Image
-                height={20}
+                height={10}
                 width={200}
                 src="/dev.jpeg"
                 className="h-48 rounded-full sm:h-56"
