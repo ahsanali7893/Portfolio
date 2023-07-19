@@ -24,7 +24,7 @@ const Portfolio = (props: Props) => {
             href={"/"}
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <Image width={1400} height={100} src="/Portfolio.png" alt="" />
+            <Image width={1400} height={100} src="/textutils.png" alt="" />
           </Link>
           <Link
             href={"/"}
