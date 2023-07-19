@@ -15,7 +15,7 @@ const Portfolio = (props: Props) => {
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <Link
-            href={"/"}
+            href="https://fitness-w78k.vercel.app/"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
