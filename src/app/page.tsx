@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <Hero props={undefined}/>
+      <Hero/>
       <About/>
       <Skill/>
       <Portfolio/>

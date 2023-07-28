@@ -3,7 +3,7 @@ import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 
-type Props = {props:any};
+type Props = {};
 
 const Hero = (props: Props) => {
   return (
