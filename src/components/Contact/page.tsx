@@ -96,13 +96,13 @@ export default function Contact() {
   };
 
   return (
-    <>
+    <section id="contact">
       <ToastContainer />
       <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
         <div className="w-full ">
           <div className="text-2xl items-center justify-center text-center">
             <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-black">
-              CONTACT <span className="text-[#ffb200]"> ME</span>
+              CONTACT <span className="text-[#66b3b3]"> ME</span>
             </h2>
             {/* <button onClick={notify}>Notify !</button> */}
           </div>
@@ -111,7 +111,7 @@ export default function Contact() {
               <div className="w-full lg:w-[40%]">
                 <h1 className="pb-6 font-bold text-3xl text-black tracking-widest">
                   (: DON&apos;T BE{" "}
-                  <span className="text-[#ffb400]"> SHY !</span>
+                  <span className="text-[#66b3b3]"> SHY !</span>
                 </h1>
                 <p className="text-black">
                   I&lsquo;m open to discussing new projects, creative ideas, and
@@ -262,7 +262,7 @@ export default function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="bg-[#66b3b3] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
+                    className="bg-[#66b3b3] border-4 border-[#267272] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
                     disabled={loading}
                   >
                     {loading ? "sending... " : "Send message"}
@@ -273,6 +273,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
