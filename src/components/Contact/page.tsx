@@ -135,7 +135,7 @@ export default function Contact() {
                     <h2 className=" font-bold text-xl text-white tracking-widest">
                       Mail Me
                     </h2>
-                    <p className="text-white">contact@khalilahmed.dev</p>
+                    <p className="text-black">panhwerahsanali54@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center mt-8">
@@ -146,7 +146,7 @@ export default function Contact() {
                     <h2 className=" font-bold text-xl text-white tracking-widest">
                       Whatsapp
                     </h2>
-                    <p className="text-white">+923070599766</p>
+                    <p className="text-black">+923243916902</p>
                   </div>
                 </div>
               </div>
