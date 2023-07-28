@@ -74,6 +74,47 @@ const Skill = (props: Props) => {
               </div>
             </div>
             <div className="group rounded px-8 py-12">
+              <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+              <div className="transform transition-all hover:scale-110 duration-500">
+                  <img
+                    src="./bs.png"
+                    alt="html"
+                    className="cursor-pointer "
+                  />
+                  <p className="font-bold hover:text-sky-500 duration-500 cursor-pointer">
+                    Bootstrap
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group rounded px-8 py-12">
+              <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+              <div className="transform transition-all hover:scale-110 duration-500">
+                  <img
+                    src="./Mantine.png"
+                    alt="html"
+                    className="cursor-pointer "
+                  />
+                  <p className="font-bold hover:text-sky-500 duration-500 cursor-pointer">
+                    Mantine
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group rounded px-8 py-12">
+              <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+              <div className="transform transition-all hover:scale-110 duration-500">
+                  <img
+                    src="./github.png"
+                    alt="html"
+                    className="cursor-pointer "
+                  />
+                  <p className="font-bold hover:text-sky-500 duration-500 cursor-pointer">
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group rounded px-8 py-12">
               <div className="mx-auto  h-24 w-24 text-center xl:h-28 xl:w-28">
                 <div className="transform transition-all hover:scale-110 duration-500">
                   <img src="./next.png" alt="html" className="cursor-pointer" />
