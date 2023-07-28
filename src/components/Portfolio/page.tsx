@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AiOutlinePlayCircle } from "react-icons/ai";
 
 type Props = {};
 
@@ -14,12 +15,14 @@ const Portfolio = (props: Props) => {
           Here&apos;s what I have done with the past
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <Link
-            href="https://fitness-w78k.vercel.app/"
+          <div
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
-          </Link>
+            <Link href='https://fitness-w78k.vercel.app'>
+            <AiOutlinePlayCircle width={25} height={25}/>
+            </Link>
+          </div>
           <Link
             href="https://textutilsby.vercel.app"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
