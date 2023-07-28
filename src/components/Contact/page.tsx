@@ -122,7 +122,7 @@ export default function Contact() {
                 <div className="flex items-center mt-8">
                   <div className="">
                     <HiOutlineLocationMarker
-                      className="text-[#ffb400] mr-4"
+                      className="text-[#66b3b3] mr-4"
                       size={40}
                     />
                   </div>
@@ -135,7 +135,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center mt-8">
                   <div className="">
-                    <GoMail className="text-[#ffb400] mr-4" size={40} />
+                    <GoMail className="text-[#66b3b3] mr-4" size={40} />
                   </div>
                   <div className="">
                     <h2 className=" font-bold text-xl text-black tracking-widest">
@@ -146,7 +146,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center mt-8">
                   <div className="">
-                    <BsWhatsapp className="text-[#ffb400] mr-4" size={35} />
+                    <BsWhatsapp className="text-[#66b3b3] mr-4" size={35} />
                   </div>
                   <div className="">
                     <h2 className=" font-bold text-xl text-black tracking-widest">
@@ -262,7 +262,7 @@ export default function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="bg-[#ffb400] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
+                    className="bg-[#66b3b3] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
                     disabled={loading}
                   >
                     {loading ? "sending... " : "Send message"}
