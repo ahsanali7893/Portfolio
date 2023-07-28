@@ -54,7 +54,7 @@ export default function Contact() {
   const sendEmail = (e: any) => {
     setLoading(true);
     emailjs
-      .send("service_2d241zq", "template_3mtzjmk", e, "LQe7qqYP6HhGvunpL")
+      .send("service_joub56y", "template_jfjia9i ", e, "VU7TuGeyajSuZymuB")
       .then(
         (result) => {
           // console.log(result.text);
