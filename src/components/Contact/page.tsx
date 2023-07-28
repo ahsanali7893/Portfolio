@@ -130,7 +130,7 @@ export default function Contact() {
                     <h2 className=" font-bold text-xl text-black tracking-widest">
                       Location
                     </h2>
-                    <p className="text-black">Hyderabad, Sindh, Pakistan</p>
+                    <p className="text-black">Hyderabad Sindh Pakistan</p>
                 </div>
                 </div>
                 <div className="flex items-center mt-8">
