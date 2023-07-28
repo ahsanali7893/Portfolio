@@ -101,7 +101,7 @@ export default function Contact() {
       <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
         <div className="w-full ">
           <div className="text-2xl items-center justify-center text-center">
-            <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-white">
+            <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-black">
               CONTACT <span className="text-[#ffb200]"> ME</span>
             </h2>
             {/* <button onClick={notify}>Notify !</button> */}
@@ -109,11 +109,11 @@ export default function Contact() {
           <div className="my-10">
             <div className="lg:flex pt-6">
               <div className="w-full lg:w-[40%]">
-                <h1 className="pb-6 font-bold text-3xl text-white tracking-widest">
+                <h1 className="pb-6 font-bold text-3xl text-black tracking-widest">
                   (: DON&apos;T BE{" "}
                   <span className="text-[#ffb400]"> SHY !</span>
                 </h1>
-                <p className="text-white">
+                <p className="text-black">
                   I&lsquo;m open to discussing new projects, creative ideas, and
                   opportunities to be part of your vision. Let&lsquo;s connect
                   and explore possibilities together. Feel free to reach out for
@@ -125,12 +125,6 @@ export default function Contact() {
                       className="text-[#ffb400] mr-4"
                       size={40}
                     />
-                  </div>
-                  <div className="">
-                    <h2 className=" font-bold text-xl text-white tracking-widest">
-                      Address Point
-                    </h2>
-                    <p className="text-white">G-10, Islamabad, Pakistan .</p>
                   </div>
                 </div>
                 <div className="flex items-center mt-8">
