@@ -126,13 +126,19 @@ export default function Contact() {
                       size={40}
                     />
                   </div>
+                  <div className="">
+                    <h2 className=" font-bold text-xl text-black tracking-widest">
+                      Location
+                    </h2>
+                    <p className="text-black">Hyderabad, Sindh, Pakistan</p>
+                </div>
                 </div>
                 <div className="flex items-center mt-8">
                   <div className="">
                     <GoMail className="text-[#ffb400] mr-4" size={40} />
                   </div>
                   <div className="">
-                    <h2 className=" font-bold text-xl text-white tracking-widest">
+                    <h2 className=" font-bold text-xl text-black tracking-widest">
                       Mail Me
                     </h2>
                     <p className="text-black">panhwerahsanali54@gmail.com</p>
@@ -143,7 +149,7 @@ export default function Contact() {
                     <BsWhatsapp className="text-[#ffb400] mr-4" size={35} />
                   </div>
                   <div className="">
-                    <h2 className=" font-bold text-xl text-white tracking-widest">
+                    <h2 className=" font-bold text-xl text-black tracking-widest">
                       Whatsapp
                     </h2>
                     <p className="text-black">+923243916902</p>
