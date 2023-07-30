@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineArrowRight, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { HiExternalLink } from "react-icons/hi";
 
 type Props = {};
 
@@ -22,7 +23,7 @@ const Portfolio = (props: Props) => {
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
               <Link href="https://fitness-w78k.vercel.app">
-                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }} />
+                <HiExternalLink className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
@@ -34,7 +35,7 @@ const Portfolio = (props: Props) => {
               </Link>
               <Link href="https://textutilsby.vercel.app">
 
-                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }} />
+                <HiExternalLink className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
@@ -46,7 +47,7 @@ const Portfolio = (props: Props) => {
               </Link>
 
               <Link href="https://travel-chi-black.vercel.app">
-                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }} />
+                <HiExternalLink className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
@@ -58,7 +59,7 @@ const Portfolio = (props: Props) => {
               </Link>
 
               <Link href="https://codeswear-self.vercel.app">
-                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }} />
+                <HiExternalLink className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
