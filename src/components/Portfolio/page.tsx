@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlinePlayCircle } from "react-icons/ai";
+import { AiOutlinePlayCircle, AiFillGithub } from "react-icons/ai";
 
 type Props = {};
 
@@ -15,32 +15,66 @@ const Portfolio = (props: Props) => {
           Here&apos;s what I have done with the past
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <div
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
-            <Link href='https://fitness-w78k.vercel.app'>
-            <AiOutlinePlayCircle width={25} height={25}/>
+            <Link href="https://fitness-w78k.vercel.app">
+              <div className="flex items-center mt-3 justify-end">
+                <AiOutlinePlayCircle className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+            <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
+              <div className="flex items-center mt-1 justify-end">
+                <AiFillGithub className="mr-2" width={24} height={24} />
+
+              </div>
             </Link>
           </div>
-          <Link
-            href="https://textutilsby.vercel.app"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/textutils.PNG" alt="" />
-          </Link>
-          <Link
-            href="https://travel-chi-black.vercel.app"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
+            <Link href="https://textutilsby.vercel.app">
+              <div className="flex items-center mt-3 justify-end">
+                <AiOutlinePlayCircle className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+            <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
+              <div className="flex items-center mt-1 justify-end">
+                <AiFillGithub className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/trippy.PNG" alt="" />
-          </Link>
-          <Link
-            href="https://codeswear-self.vercel.app"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
+            <Link href="https://travel-chi-black.vercel.app">
+              <div className="flex items-center mt-3 justify-end">
+                <AiOutlinePlayCircle className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+            <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
+              <div className=" justify-end">
+                <AiFillGithub className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/codeswear.PNG" alt="" />
-          </Link>
+            <Link href="https://codeswear-self.vercel.app">
+              <div className="flex items-center mt-3 justify-end">
+                <AiOutlinePlayCircle className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+            <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
+              <div className="flex items-center mt-1 justify-end">
+                <AiFillGithub className="mr-2" width={24} height={24} />
+
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
