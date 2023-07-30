@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlinePlayCircle, AiFillGithub } from "react-icons/ai";
+import { AiOutlineArrowRight, AiFillGithub } from "react-icons/ai";
 
 type Props = {};
 
@@ -18,10 +18,10 @@ const Portfolio = (props: Props) => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
-              <Link href="https://fitness-w78k.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }}  />
+            <Link href="https://github.com/ahsanali7893/fitness" target="_blank" rel="noopener noreferrer">
+                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
-              <Link href="https://github.com/ahsanali7893/fitness" target="_blank" rel="noopener noreferrer">
+              <Link href="https://fitness-w78k.vercel.app">
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
@@ -29,10 +29,11 @@ const Portfolio = (props: Props) => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/textutils.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
-              <Link href="https://textutilsby.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }}  />
+            <Link href="https://github.com/ahsanali7893/textutils" target="_blank" rel="noopener noreferrer">
+                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
-              <Link href="https://github.com/ahsanali7893/textutils" target="_blank" rel="noopener noreferrer">
+              <Link href="https://textutilsby.vercel.app">
+              
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
@@ -40,10 +41,11 @@ const Portfolio = (props: Props) => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/trippy.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
-              <Link href="https://travel-chi-black.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }}  />
+            <Link href="https://github.com/ahsanali7893/Travel" target="_blank" rel="noopener noreferrer">
+                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
-              <Link href="https://github.com/ahsanali7893/Travel" target="_blank" rel="noopener noreferrer">
+              
+              <Link href="https://travel-chi-black.vercel.app">
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
@@ -51,10 +53,11 @@ const Portfolio = (props: Props) => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <Image width={1400} height={100} src="/codeswear.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
-              <Link href="https://codeswear-self.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }} />
+            <Link href="https://github.com/ahsanali7893/codeswear" target="_blank" rel="noopener noreferrer">
+                <AiOutlineArrowRight className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
-              <Link href="https://github.com/ahsanali7893/codeswear" target="_blank" rel="noopener noreferrer">
+              
+              <Link href="https://codeswear-self.vercel.app">
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
             </div>
