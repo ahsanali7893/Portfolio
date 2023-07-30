@@ -54,7 +54,7 @@ export default function Contact() {
   const sendEmail = (e: any) => {
     setLoading(true);
     emailjs
-      .send("service_joub56y", "template_jfjia9i ", e, "VU7TuGeyajSuZymuB")
+      .send("service_joub56y", "template_jfjia9i", e, "VU7TuGeyajSuZymuB")
       .then(
         (result) => {
           // console.log(result.text);
@@ -131,7 +131,7 @@ export default function Contact() {
                       Location
                     </h2>
                     <p className="text-black">Hyderabad Sindh Pakistan</p>
-                </div>
+                  </div>
                 </div>
                 <div className="flex items-center mt-8">
                   <div className="">
@@ -165,11 +165,10 @@ export default function Contact() {
                         value={values.user_name}
                         type="text"
                         name="user_name"
-                        className={`${
-                          errors.user_name && touched.user_name
+                        className={`${errors.user_name && touched.user_name
                             ? "!border-red-500"
                             : ""
-                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
+                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
                         placeholder="Enter your name"
                       />
                       {errors.user_name && touched.user_name ? (
@@ -190,11 +189,10 @@ export default function Contact() {
                         value={values.user_email}
                         type="email"
                         name="user_email"
-                        className={`${
-                          errors.user_email && touched.user_email
+                        className={`${errors.user_email && touched.user_email
                             ? "!border-red-500"
                             : ""
-                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
+                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
                         placeholder="Enter your email"
                       />
                       {errors.user_email && touched.user_email ? (
@@ -216,11 +214,10 @@ export default function Contact() {
                       value={values.user_subject}
                       name="user_subject"
                       type="text"
-                      className={`${
-                        errors.user_subject && touched.user_subject
+                      className={`${errors.user_subject && touched.user_subject
                           ? "!border-red-500"
                           : ""
-                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-full text-white`}
+                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-full text-white`}
                       placeholder="Your subject"
                     />
                     {errors.user_subject && touched.user_subject ? (
@@ -241,11 +238,10 @@ export default function Contact() {
                       value={values.user_message}
                       name="user_message"
                       rows={7}
-                      className={`${
-                        errors.user_message && touched.user_message
+                      className={`${errors.user_message && touched.user_message
                           ? "!border-red-500"
                           : ""
-                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-2xl text-white`}
+                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-2xl text-white`}
                       placeholder="Write your message here..."
                     />
                     {errors.user_message && touched.user_message ? (
