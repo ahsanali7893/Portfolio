@@ -168,7 +168,7 @@ export default function Contact() {
                         className={`${errors.user_name && touched.user_name
                             ? "!border-red-500"
                             : ""
-                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
+                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white`}
                         placeholder="Enter your name"
                       />
                       {errors.user_name && touched.user_name ? (
@@ -192,7 +192,7 @@ export default function Contact() {
                         className={`${errors.user_email && touched.user_email
                             ? "!border-red-500"
                             : ""
-                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] p-2 rounded-full text-white`}
+                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white`}
                         placeholder="Enter your email"
                       />
                       {errors.user_email && touched.user_email ? (
@@ -217,7 +217,7 @@ export default function Contact() {
                       className={`${errors.user_subject && touched.user_subject
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-full text-white`}
+                        } shadow-lg shadow-[#267272] focus:shadow-[#267272] focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white`}
                       placeholder="Your subject"
                     />
                     {errors.user_subject && touched.user_subject ? (
@@ -241,7 +241,7 @@ export default function Contact() {
                       className={`${errors.user_message && touched.user_message
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-2xl text-white`}
+                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white`}
                       placeholder="Write your message here..."
                     />
                     {errors.user_message && touched.user_message ? (
