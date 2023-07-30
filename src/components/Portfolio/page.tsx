@@ -30,10 +30,10 @@ const Portfolio = (props: Props) => {
             <Image width={1400} height={100} src="/textutils.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://textutilsby.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" width={32} height={32} />
+                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
               <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
-                <AiFillGithub className="mr-2" width={32} height={32} />
+                <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
@@ -41,10 +41,10 @@ const Portfolio = (props: Props) => {
             <Image width={1400} height={100} src="/trippy.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://travel-chi-black.vercel.app">
-                <AiOutlinePlayCircle className="mr-2" width={32} height={32} />
+                <AiOutlinePlayCircle className="mr-2" style={{ width: "32px", height: "32px" }}  />
               </Link>
               <Link href="https://github.com/your-github-repo-link" target="_blank" rel="noopener noreferrer">
-                <AiFillGithub className="mr-2" width={32} height={32} />
+                <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
               </Link>
             </div>
           </div>
