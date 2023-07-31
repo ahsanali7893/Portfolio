@@ -57,7 +57,7 @@ export default function Contact() {
       .send("service_joub56y", "template_jfjia9i", e, "VU7TuGeyajSuZymuB")
       .then(
         (result) => {
-          // console.log(result.text);
+          
           const notify = () =>
             toast("Message sent", {
               position: "top-center",
