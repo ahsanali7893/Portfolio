@@ -104,7 +104,7 @@ export default function Contact() {
             <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-black">
               CONTACT <span className="text-[#66b3b3]"> ME</span>
             </h2>
-            {/* <button onClick={notify}>Notify !</button> */}
+          
           </div>
           <div className="my-10">
             <div className="lg:flex pt-6">
