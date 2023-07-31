@@ -177,7 +177,7 @@ export default function Contact() {
                             className="text-red-400 mr-2"
                             size={20}
                           />
-                          <p className="text-white font-bold">
+                          <p className="text-black font-bold">
                             {`${errors.user_name}`}
                           </p>
                         </div>
