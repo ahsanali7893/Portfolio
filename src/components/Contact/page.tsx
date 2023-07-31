@@ -48,7 +48,7 @@ export default function Contact() {
   const handleSaveAction = (formValue: any) => {
     sendEmail(formValue);
   };
-  // console.log(errors, "errors");
+  
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: any) => {
