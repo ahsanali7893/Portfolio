@@ -192,7 +192,7 @@ export default function Contact() {
                         className={`${errors.user_email && touched.user_email
                             ? "!border-red-500"
                             : ""
-                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white`}
+                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
                         placeholder="Enter your email"
                       />
                       {errors.user_email && touched.user_email ? (
