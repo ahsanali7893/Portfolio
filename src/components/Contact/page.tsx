@@ -241,7 +241,7 @@ export default function Contact() {
                       className={`${errors.user_message && touched.user_message
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white`}
+                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white placeholder:text-white`}
                       placeholder="Write your message here..."
                     />
                     {errors.user_message && touched.user_message ? (
