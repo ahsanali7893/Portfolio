@@ -217,7 +217,7 @@ export default function Contact() {
                       className={`${errors.user_subject && touched.user_subject
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-[#267272] focus:shadow-[#267272] focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white`}
+                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white`}
                       placeholder="Your subject"
                     />
                     {errors.user_subject && touched.user_subject ? (
