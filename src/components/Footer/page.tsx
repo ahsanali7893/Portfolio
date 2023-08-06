@@ -13,10 +13,10 @@ const Footer = (props: Props) => {
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
           <Link
-            href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
-            className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
+            href="https://github.com/ahsanali7893"
+            className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
           >
-            <BsFacebook />
+            <BsGithub />
           </Link>
           <Link
             href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
@@ -31,10 +31,10 @@ const Footer = (props: Props) => {
             <BsInstagram />
           </Link>
           <Link
-            href="https://github.com/ahsanali7893"
-            className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
+            href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
+            className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
           >
-            <BsGithub />
+            <BsFacebook />
           </Link>
         </div>
       </div>

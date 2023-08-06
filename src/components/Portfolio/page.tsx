@@ -16,7 +16,7 @@ const Portfolio = (props: Props) => {
           Here&apos;s what I have done with the past
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://github.com/ahsanali7893/fitness" target="_blank" rel="noopener noreferrer">
@@ -27,7 +27,7 @@ const Portfolio = (props: Props) => {
               </Link>
             </div>
           </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
             <Image width={1400} height={100} src="/textutils.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://github.com/ahsanali7893/textutils" target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ const Portfolio = (props: Props) => {
               </Link>
             </div>
           </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
             <Image width={1400} height={100} src="/trippy.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://github.com/ahsanali7893/Travel" target="_blank" rel="noopener noreferrer">
@@ -51,7 +51,7 @@ const Portfolio = (props: Props) => {
               </Link>
             </div>
           </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
             <Image width={1400} height={100} src="/codeswear.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://github.com/ahsanali7893/codeswear" target="_blank" rel="noopener noreferrer">
