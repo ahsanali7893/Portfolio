@@ -67,11 +67,12 @@ const Hero = (props: Props) => {
                     <BsGithub />
                   </Link>
                 </div>
-              </div>
-              <div className="">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                  Resume
-                </button>
+                  <a
+                    href="#"
+                    className="sm:px-6 sm:py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                  >
+                    Download CV
+                  </a>
               </div>
             </div>
           </div>
