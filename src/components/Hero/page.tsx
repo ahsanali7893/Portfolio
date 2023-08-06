@@ -43,10 +43,10 @@ const Hero = (props: Props) => {
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                   <Link
-                    href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
-                    className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
+                    href="https://github.com/ahsanali7893"
+                    className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
                   >
-                    <BsFacebook />
+                    <BsGithub />
                   </Link>
                   <Link
                     href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
@@ -61,15 +61,15 @@ const Hero = (props: Props) => {
                     <BsInstagram />
                   </Link>
                   <Link
-                    href="https://github.com/ahsanali7893"
-                    className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
+                    href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
+                    className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
                   >
-                    <BsGithub />
+                    <BsFacebook />
                   </Link>
                 </div>
                   <a
                     href="#"
-                    className="sm:px-6 sm:py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                    className="px-6 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
                   >
                     Download CV
                   </a>
