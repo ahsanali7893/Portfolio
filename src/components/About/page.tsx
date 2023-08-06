@@ -41,9 +41,9 @@ const About = () => {
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                 <Link
                   href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-blue-500"
+                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-gray-500"
                 >
-                  <BsFacebook />
+                  <BsGithub />
                 </Link>
                 <Link
                   href={"/"}
@@ -59,9 +59,9 @@ const About = () => {
                 </Link>
                 <Link
                   href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-gray-500"
+                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-blue-500"
                 >
-                  <BsGithub />
+                  <BsFacebook />
                 </Link>
               </div>
             </div>
