@@ -52,7 +52,7 @@ const Portfolio = (props: Props) => {
             </div>
           </div>
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
-            <Image width={1400} height={100} src="/textutils.PNG" alt="" />
+            <Image width={1400} height={100} src="/textutils2.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://github.com/ahsanali7893/textutils" target="_blank" rel="noopener noreferrer">
                 <AiFillGithub className="mr-2" style={{ width: "32px", height: "32px" }} />
