@@ -67,12 +67,12 @@ const Hero = (props: Props) => {
                     <BsFacebook />
                   </Link>
                 </div>
-                  <a
-                    href="#"
+                  <Link
+                    href="/resume.pdf" target="_blank"
                     className="my-6 px-28 py-3 sm:px-6 sm:py-3 sm:ml-4 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
                   >
                     Download CV
-                  </a>
+                  </Link>
               </div>
             </div>
           </div>
