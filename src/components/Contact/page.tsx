@@ -48,7 +48,7 @@ export default function Contact() {
   const handleSaveAction = (formValue: any) => {
     sendEmail(formValue);
   };
-  
+
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: any) => {
@@ -57,7 +57,6 @@ export default function Contact() {
       .send("service_joub56y", "template_jfjia9i", e, "VU7TuGeyajSuZymuB")
       .then(
         (result) => {
-          
           const notify = () =>
             toast("Message sent", {
               position: "top-center",
@@ -101,10 +100,13 @@ export default function Contact() {
       <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
         <div className="w-full ">
           <div className="text-2xl items-center justify-center text-center">
-            <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-black">
-              CONTACT <span className="text-[#66b3b3]"> ME</span>
+            <h2 className="text-center font-header text-4xl font-semibold uppercase text-black sm:text-5xl lg:text-6xl">
+              CONTACT{" "}
+              <span className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
+                {" "}
+                ME
+              </span>
             </h2>
-          
           </div>
           <div className="my-10">
             <div className="lg:flex pt-6">
@@ -165,10 +167,11 @@ export default function Contact() {
                         value={values.user_name}
                         type="text"
                         name="user_name"
-                        className={`${errors.user_name && touched.user_name
+                        className={`${
+                          errors.user_name && touched.user_name
                             ? "!border-red-500"
                             : ""
-                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
+                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
                         placeholder="Enter your name"
                       />
                       {errors.user_name && touched.user_name ? (
@@ -189,10 +192,11 @@ export default function Contact() {
                         value={values.user_email}
                         type="email"
                         name="user_email"
-                        className={`${errors.user_email && touched.user_email
+                        className={`${
+                          errors.user_email && touched.user_email
                             ? "!border-red-500"
                             : ""
-                          } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
+                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
                         placeholder="Enter your email"
                       />
                       {errors.user_email && touched.user_email ? (
@@ -214,10 +218,11 @@ export default function Contact() {
                       value={values.user_subject}
                       name="user_subject"
                       type="text"
-                      className={`${errors.user_subject && touched.user_subject
+                      className={`${
+                        errors.user_subject && touched.user_subject
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white placeholder:text-white`}
+                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white placeholder:text-white`}
                       placeholder="Your subject"
                     />
                     {errors.user_subject && touched.user_subject ? (
@@ -238,10 +243,11 @@ export default function Contact() {
                       value={values.user_message}
                       name="user_message"
                       rows={7}
-                      className={`${errors.user_message && touched.user_message
+                      className={`${
+                        errors.user_message && touched.user_message
                           ? "!border-red-500"
                           : ""
-                        } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white placeholder:text-white`}
+                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white placeholder:text-white`}
                       placeholder="Write your message here..."
                     />
                     {errors.user_message && touched.user_message ? (
