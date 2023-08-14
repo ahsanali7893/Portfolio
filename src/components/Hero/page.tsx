@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
                 height={48}
                 width={225}
                 src="/dev.jpeg"
-                className="h-48 rounded-full sm:h-56"
+                className="h-56 rounded-full sm:h-56"
                 alt=""
               />
             </div>
