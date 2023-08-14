@@ -66,7 +66,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="py-16 bg-white">
+        </div>
+      </div>
+          <div className="py-16 bg-white max-w-7xl mx-auto">
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-semibold mb-8 text-gray-800">
                 Education
@@ -90,8 +92,6 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
     </section>
   );
 };
