@@ -68,30 +68,65 @@ const About = () => {
           </div>
         </div>
       </div>
-          <div className="py-16 bg-white max-w-7xl mx-auto">
-            <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-semibold mb-8 text-gray-800">
-                Education
-              </h2>
-              <div className="flex space-x-12">
-                <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-700">
-                    Bachelor&apos;s Degree
-                  </h3>
-                  <p className="text-gray-600 mb-4">University Name</p>
-                  <p className="text-gray-600">Graduated in May 20XX</p>
-                </div>
+      <div className="py-16 bg-white max-w-7xl mx-auto">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold mb-8 text-gray-800 text-center">
+            Education
+          </h2>
+          <div className="flex space-x-12">
+            <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2 text-gray-700">
+                MATRICULATION
+              </h3>
+              <p className="text-gray-600 mb-4">
+                GOVT: BOYS HIGH SCHOOL KHAIR MUHAMMAD PANHWAR, DADU
+              </p>
+              <p className="text-gray-600">2021/22-2022/23</p>
+            </div>
 
-                <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-700">
-                    High School Diploma
-                  </h3>
-                  <p className="text-gray-600 mb-4">High School Name</p>
-                  <p className="text-gray-600">Graduated in June 20XX</p>
-                </div>
-              </div>
+            <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2 text-gray-700">
+                INTERMEDIATE
+              </h3>
+              <p className="text-gray-600 mb-4">
+                GOVT: BOYS DEGREE COLLEGE BHANSYEDABAD
+              </p>
+              <p className="text-gray-600">2023-Continue</p>
+            </div>
+            <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2 text-gray-700">
+                CIT - (certificate in information technology)
+              </h3>
+              <p className="text-gray-600 mb-4">
+                BHAN SAYEDABAD, DISTRICT JAMSHORO
+              </p>
+              <p className="text-gray-600">2019</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <div className="max-w-lg w-full bg-white rounded-lg overflow-hidden shadow-lg">
+          <div className="bg-gray-700 p-4">
+            <h3 className="text-xl font-semibold text-white">EXPERIENCE</h3>
+            <p className="text-gray-300">
+              React developer ( Internship ) At Newtown It Solution
+            </p>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-600">
+              Worked on front-end development projects,
+              collaborating with cross-functional teams to deliver high-quality
+              software solutions.
+            </p>
+          </div>
+          <div className="bg-gray-100 p-4 border-t border-gray-300 flex justify-between items-center">
+            <div className="text-gray-600">
+              <p>Des/2022 - July/2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
