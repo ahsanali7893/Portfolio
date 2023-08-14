@@ -66,6 +66,26 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="py-16 bg-white">
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-semibold mb-8 text-gray-800">Education</h2>
+      <div className="flex space-x-12">
+       
+        <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
+          <h3 className="text-xl font-semibold mb-2 text-gray-700">Bachelor&apos;s Degree</h3>
+          <p className="text-gray-600 mb-4">University Name</p>
+          <p className="text-gray-600">Graduated in May 20XX</p>
+        </div>
+        
+        <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
+          <h3 className="text-xl font-semibold mb-2 text-gray-700">High School Diploma</h3>
+          <p className="text-gray-600 mb-4">High School Name</p>
+          <p className="text-gray-600">Graduated in June 20XX</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
         </div>
       </div>
     </section>
