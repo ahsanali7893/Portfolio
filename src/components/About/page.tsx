@@ -73,7 +73,7 @@ const About = () => {
           <h2 className="text-3xl font-semibold mb-8 text-gray-800 text-center">
             Education
           </h2>
-          <div className="sm:flex sm:space-x-12 flex-row">
+          <div className="md:flex flex-row space-x-5 space-y-6">
             <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2 text-gray-700">
                 MATRICULATION
@@ -105,8 +105,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center">
-        <div className="max-w-lg w-full bg-white rounded-lg overflow-hidden shadow-lg">
+      <div className="flex justify-center items-center m">
+        <div className="max-w-lg mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
           <div className="bg-gray-700 p-4">
             <h3 className="text-xl font-semibold text-white">EXPERIENCE</h3>
             <p className="text-gray-300">
