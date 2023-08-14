@@ -107,7 +107,7 @@ const About = () => {
       </div>
       <div className="flex justify-center items-center m">
         <div className="max-w-lg mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
-          <div className="bg-gray-700 p-4">
+          <div className="bg-[#66b3b3] p-4">
             <h3 className="text-xl font-semibold text-white">EXPERIENCE</h3>
             <p className="text-gray-300">
               React developer ( Internship ) At Newtown It Solution
