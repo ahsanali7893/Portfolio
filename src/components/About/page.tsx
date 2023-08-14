@@ -73,7 +73,7 @@ const About = () => {
           <h2 className="text-3xl font-semibold mb-8 text-gray-800 text-center">
             Education
           </h2>
-          <div className="flex space-x-12">
+          <div className="sm:flex sm:space-x-12 flex-row">
             <div className="flex-1 bg-gray-200 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2 text-gray-700">
                 MATRICULATION
