@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
@@ -10,10 +10,30 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setHasScrolled(true);
+    } else {
+      setHasScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navbarClasses = `fixed w-full h-[70px] opacity-1000 bg-[#66b3b3] z-50 top-0 py-3 sm:py-5 transition-shadow duration-300 ${
+    hasScrolled ? "shadow-md bg-[#66b3b3]" : ""
+  }`;
+
   return (
     <div
-      className="w-full h-[70px] opacity-1000 z-50 top-0 py-3 sm:py-5 shadow-xl sticky "
-      style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}
+    className={navbarClasses}
     >
       <div className="container flex items-center h-full w-full 2xl:px-16 justify-between px-5 max-w-6xl mx-auto">
         <div>
