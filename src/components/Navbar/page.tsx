@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   const navbarClasses = `fixed w-full h-[70px] opacity-1000 bg-cyan z-50 top-0 py-3 sm:py-5 transition-shadow duration-300 ${
-    hasScrolled ? "shadow-[#4ba7a7] shadow-lg bg-teal-500 bg-opacity-60" : ""
+    hasScrolled ? "shadow-[#4ba7a7] shadow-lg bg-gradient-to-r from-teal-500 to-cyan-600 bg-opacity-60" : ""
   }`;
 
   return (

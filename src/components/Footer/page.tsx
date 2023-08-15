@@ -6,7 +6,7 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div style={{ backgroundColor: "rgba(0, 128, 128, 0.6)" }}>
+    <div className="bg-gradient-to-r from-teal-500 to-cyan-600">
       <div className="container flex flex-col justify-between py-6 sm:flex-row max-w-6xl mx-auto">
         <p className="text-center font-body text-white md:text-left">
           © Copyright 2023. All right reserved, AHSAN.

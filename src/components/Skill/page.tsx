@@ -18,7 +18,7 @@ const Skill = () => {
   return (
     <section id="skill" className="py-16 md:py-20 bg-gray-50">
       <div className="container max-w-5xl mx-auto">
-        <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] text-primary sm:text-5xl lg:text-6xl">
+        <h2 className="text-center font-header text-4xl font-semibold uppercase text-cyan-600 text-primary sm:text-5xl lg:text-6xl">
           Skills
         </h2>
         <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 md:gap-10 md:mt-12 lg:grid-cols-4">

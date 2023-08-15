@@ -100,9 +100,9 @@ export default function Contact() {
       <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
         <div className="w-full ">
           <div className="text-2xl items-center justify-center text-center">
-            <h2 className="text-center font-header text-4xl font-semibold uppercase text-black sm:text-5xl lg:text-6xl">
+            <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
               CONTACT{" "}
-              <span className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">
+              <span className="text-center font-header text-4xl font-semibold uppercase text-cyan-600 sm:text-5xl lg:text-6xl">
                 {" "}
                 ME
               </span>
@@ -111,9 +111,9 @@ export default function Contact() {
           <div className="my-10">
             <div className="lg:flex pt-6">
               <div className="w-full lg:w-[40%]">
-                <h1 className="pb-6 font-bold text-3xl text-black tracking-widest">
+                <h1 className="pb-6 font-bold text-3xl text-teal-500 tracking-widest">
                   (: DON&apos;T BE{" "}
-                  <span className="text-[#66b3b3]"> SHY !</span>
+                  <span className="text-cyan-600"> SHY !</span>
                 </h1>
                 <p className="text-black">
                   I&lsquo;m open to discussing new projects, creative ideas, and
@@ -171,7 +171,7 @@ export default function Contact() {
                           errors.user_name && touched.user_name
                             ? "!border-red-500"
                             : ""
-                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
+                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-gradient-to-r from-teal-500 to-cyan-600 p-2 rounded-full text-white placeholder:text-white`}
                         placeholder="Enter your name"
                       />
                       {errors.user_name && touched.user_name ? (
@@ -196,7 +196,7 @@ export default function Contact() {
                           errors.user_email && touched.user_email
                             ? "!border-red-500"
                             : ""
-                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-[#66b3b3] p-2 rounded-full text-white placeholder:text-white`}
+                        } w-full shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#185f5f] bg-gradient-to-r from-teal-500 to-cyan-600 p-2 rounded-full text-white placeholder:text-white`}
                         placeholder="Enter your email"
                       />
                       {errors.user_email && touched.user_email ? (
@@ -222,7 +222,7 @@ export default function Contact() {
                         errors.user_subject && touched.user_subject
                           ? "!border-red-500"
                           : ""
-                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-full text-white placeholder:text-white`}
+                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#185f5f] bg-gradient-to-r from-teal-500 to-cyan-600 w-full p-2 mt-4 rounded-full text-white placeholder:text-white`}
                       placeholder="Your subject"
                     />
                     {errors.user_subject && touched.user_subject ? (
@@ -247,7 +247,7 @@ export default function Contact() {
                         errors.user_message && touched.user_message
                           ? "!border-red-500"
                           : ""
-                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-[#66b3b3] w-full p-2 mt-4 rounded-2xl text-white placeholder:text-white`}
+                      } shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#185f5f] bg-gradient-to-r from-teal-500 to-cyan-600 w-full p-2 mt-4 rounded-2xl text-white placeholder:text-white`}
                       placeholder="Write your message here..."
                     />
                     {errors.user_message && touched.user_message ? (
@@ -264,7 +264,7 @@ export default function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="bg-[#66b3b3] border-4 border-[#267272] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
+                    className="bg-gradient-to-r from-teal-500 to-cyan-600 border-4 border-[#267272] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
                     disabled={loading}
                   >
                     {loading ? "sending... " : "Send message"}

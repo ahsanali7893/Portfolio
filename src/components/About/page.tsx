@@ -8,7 +8,7 @@ const About = () => {
       <div className="bg-gray-50" id="about">
         <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row px-5 max-w-7xl mx-auto">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-            <h2 className="font-header text-4xl font-semibold text-center uppercase text-primary sm:text-5xl lg:text-6xl text-[#66b3b3]">
+            <h2 className="font-header text-4xl font-semibold text-center uppercase text-primary sm:text-5xl lg:text-6xl text-cyan-600 ">
               Who I am?
             </h2>
             <h4 className="pt-6 font-header text-xl text-center font-medium text-black sm:text-2xl lg:text-3xl">
@@ -110,7 +110,7 @@ const About = () => {
 <div className="py-16 bg-gray-100">
   <div className="container mx-auto px-4">
     <div className="max-w-xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
-      <div className="bg-[#66b3b3] p-4">
+      <div className="bg-gradient-to-r from-teal-500 to-cyan-600 p-4">
         <h3 className="text-xl font-semibold text-white">EXPERIENCE</h3>
         <p className="text-gray-300">
           React developer ( Internship ) At Newtown It Solution
