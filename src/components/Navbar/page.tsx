@@ -27,8 +27,8 @@ const Navbar = () => {
     };
   }, []);
 
-  const navbarClasses = `fixed w-full h-[70px] opacity-1000 bg-[#66b3b3] z-50 top-0 py-3 sm:py-5 transition-shadow duration-300 ${
-    hasScrolled ? "shadow-md bg-[#66b3b3]" : ""
+  const navbarClasses = `fixed w-full h-[70px] opacity-1000 bg-cyan z-50 top-0 py-3 sm:py-5 transition-shadow duration-300 ${
+    hasScrolled ? "shadow-[#4ba7a7] shadow-lg bg-teal-500 bg-opacity-60" : ""
   }`;
 
   return (
