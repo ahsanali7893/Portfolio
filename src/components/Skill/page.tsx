@@ -25,9 +25,9 @@ const Skill = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className={`group rounded-full overflow-hidden hover:shadow-lg transition-transform transform hover:scale-105 duration-300 bg-${skill.bgColor} px-8 py-12 text-center`}
+              className={`group overflow-hidden transition-transform transform hover:scale-105 duration-300 bg-${skill.bgColor} px-8 py-10 text-center`}
             >
-              <div className="mx-auto h-24 w-24 xl:h-28 xl:w-28">
+              <div className="mx-auto h-24 w-24 xl:h-20 xl:w-20">
                 <img
                   src={skill.imgSrc}
                   alt={skill.name}
