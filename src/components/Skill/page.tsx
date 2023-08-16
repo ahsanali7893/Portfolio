@@ -10,8 +10,8 @@ const Skill = () => {
     { name: "React JS", imgSrc: "./react.png", bgColor: "sky-500" },
     { name: "Bootstrap", imgSrc: "./bs.png", bgColor: "sky-500" },
     { name: "Mantine", imgSrc: "./Mantine.png", bgColor: "sky-500" },
-    { name: "GitHub", imgSrc: "./github.png", bgColor: "sky-500" },
-    { name: "Git", imgSrc: "./git.png", bgColor: "red-400" },
+    { name: "", imgSrc: "./github.png", bgColor: "sky-500" },
+    { name: "", imgSrc: "./git.png", bgColor: "red-400" },
     { name: "NEXT JS", imgSrc: "./next.png", bgColor: "gray-400" },
   ];
 
