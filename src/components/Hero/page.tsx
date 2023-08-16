@@ -2,10 +2,11 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
+import Typed from 'react-typed';
 
-type Props = {};
 
-const Hero = (props: Props) => {
+
+const Hero = (props: any) => {
   return (
     <div>
       <div
@@ -28,7 +29,13 @@ const Hero = (props: Props) => {
               <h1 className="text-center font-header pb-3 text-4xl text-white sm:text-left sm:text-5xl md:text-6xl px-3">
                 Hello
                 <span className="text-pink-600 text-3xl sm:text-5xl pl-2">
-                  I am Ahsan Ali
+                <Typed
+                className="pl-2"
+                strings={["React.js Deveoper", "Next.js Deveoper"]}
+                typeSpeed={100}
+                loop={true}
+                backSpeed={50}
+              />
                 </span>
               </h1>
               <p className="text-lg px-3 sm:text-xl text-gray-300">
