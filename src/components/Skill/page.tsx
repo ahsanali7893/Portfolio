@@ -34,7 +34,7 @@ const Skill = () => {
                   className={`cursor-pointer hover:filter hover:brightness-125 transition duration-300`}
                 />
                 <p
-                  className={`font-bold mt-2 text-white hover:text-white`}
+                  className={`font-bold mt-2 text-black hover:text-teal-500`}
                 >
                   {skill.name}
                 </p>
