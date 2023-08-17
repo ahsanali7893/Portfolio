@@ -31,9 +31,8 @@ const Hero = (props: any) => {
                 <span className="text-pink-600 text-3xl sm:text-5xl pl-2">
                   <TypeAnimation
                     sequence={[
-                      // Same substring at the start will only be typed out once, initially
                       "I am Ahsan Ali",
-                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      1000,
                       "I am React Developer",
                       1000,
                       "I am Next Js Develoepr",
