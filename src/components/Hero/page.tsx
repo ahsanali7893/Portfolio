@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
@@ -45,10 +45,10 @@ const Hero = (props: any) => {
                   />
                 </span>
               </h1>
-              <p className="text-lg px-3 sm:text-xl text-gray-300">
-                Frontend Developer | UI/UX Enthusiast
-              </p>
 
+                  <p className="text-lg px-3 sm:text-xl text-gray-300 text-center sm:text-start">
+                    Frontend Developer | UI/UX Enthusiast
+                  </p>
               <div className="flex flex-col justify-center sm:flex-row px-3 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                   <p className="font-body text-lg uppercase text-white">
