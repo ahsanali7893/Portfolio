@@ -1,10 +1,10 @@
+'use client'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
+import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 import Image from "next/image";
-import Typed from 'react-typed';
-
-
+import React from "react";
 
 const Hero = (props: any) => {
   return (
@@ -29,13 +29,20 @@ const Hero = (props: any) => {
               <h1 className="text-center font-header pb-3 text-4xl text-white sm:text-left sm:text-5xl md:text-6xl px-3">
                 Hello
                 <span className="text-pink-600 text-3xl sm:text-5xl pl-2">
-                <Typed
-                className="pl-2"
-                strings={["React.js Deveoper", "Next.js Deveoper"]}
-                typeSpeed={100}
-                loop={true}
-                backSpeed={50}
-              />
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed out once, initially
+                      "I am Ahsan Ali",
+                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      "I am React Developer",
+                      1000,
+                      "I am Next Js Develoepr",
+                      1000,
+                    ]}
+                    wrapper="span"
+                    speed={50}
+                    repeat={Infinity}
+                  />
                 </span>
               </h1>
               <p className="text-lg px-3 sm:text-xl text-gray-300">
