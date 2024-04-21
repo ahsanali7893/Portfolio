@@ -2,17 +2,17 @@ import React from "react";
 
 const Skill = () => {
   const skills = [
+    { name: "React JS", imgSrc: "./react.png", bgColor: "sky-500" },
+    { name: "NEXT JS", imgSrc: "./next.png", bgColor: "gray-400" },
+    { name: "TypeScript", imgSrc: "./ts.png", bgColor: "blue-400" },
+    { name: "JavaScript", imgSrc: "./js.png", bgColor: "yellow-500" },
     { name: "HTML", imgSrc: "./html.png", bgColor: "orange-500" },
     { name: "CSS", imgSrc: "./css.png", bgColor: "blue-600" },
     { name: "Tailwind", imgSrc: "./tailwind.png", bgColor: "blue-700" },
-    { name: "JavaScript", imgSrc: "./js.png", bgColor: "yellow-500" },
-    { name: "TypeScript", imgSrc: "./ts.png", bgColor: "blue-400" },
-    { name: "React JS", imgSrc: "./react.png", bgColor: "sky-500" },
     { name: "Bootstrap", imgSrc: "./bs.png", bgColor: "sky-500" },
-    { name: "Mantine", imgSrc: "./Mantine.png", bgColor: "sky-500" },
     { imgSrc: "./github.png", bgColor: "sky-500" },
+    { name: "Mantine", imgSrc: "./Mantine.png", bgColor: "sky-500" },
     { imgSrc: "./git.png", bgColor: "red-400" },
-    { name: "NEXT JS", imgSrc: "./next.png", bgColor: "gray-400" },
   ];
 
   return (
@@ -33,9 +33,7 @@ const Skill = () => {
                   alt={skill.name}
                   className={`cursor-pointer hover:filter hover:brightness-125 transition duration-300`}
                 />
-                <p className={`font-bold mt-2 text-black hover:text-teal-500`}>
-                  {skill.name}
-                </p>
+                <p className={`font-bold mt-2 text-black`}>{skill.name}</p>
               </div>
             </div>
           ))}

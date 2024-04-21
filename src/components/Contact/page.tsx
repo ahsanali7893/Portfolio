@@ -112,8 +112,7 @@ export default function Contact() {
             <div className="lg:flex pt-6">
               <div className="w-full lg:w-[40%]">
                 <h1 className="pb-6 font-bold text-3xl text-teal-500 tracking-widest">
-                  (: DON&apos;T BE{" "}
-                  <span className="text-cyan-600"> SHY !</span>
+                  (: DON&apos;T BE <span className="text-cyan-600"> SHY !</span>
                 </h1>
                 <p className="text-black">
                   I&lsquo;m open to discussing new projects, creative ideas, and
@@ -132,7 +131,7 @@ export default function Contact() {
                     <h2 className=" font-bold text-xl text-black tracking-widest">
                       Location
                     </h2>
-                    <p className="text-black">Hyderabad Sindh Pakistan</p>
+                    <p className="text-black">Hyderabad, Sindh, Pakistan</p>
                   </div>
                 </div>
                 <div className="flex items-center mt-8">

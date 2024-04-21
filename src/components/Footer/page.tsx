@@ -24,18 +24,6 @@ const Footer = (props: Props) => {
           >
             <BsTwitter />
           </Link>
-          <Link
-            href="https://instagram.com/ahsan_ali_panhwa?igshid=MzNlNGNkZWQ4Mg=="
-            className="mx-2 text-xl text-white transition duration-400 hover:text-pink-500"
-          >
-            <BsInstagram />
-          </Link>
-          <Link
-            href="https://www.facebook.com/ahsanali.panhwer.58?mibextid=ZbWKwL"
-            className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
-          >
-            <BsFacebook />
-          </Link>
         </div>
       </div>
     </div>

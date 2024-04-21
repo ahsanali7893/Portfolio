@@ -40,28 +40,18 @@ const About = () => {
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                 <Link
+                  target="_blank"
                   href={"/"}
                   className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-gray-500"
                 >
                   <BsGithub />
                 </Link>
                 <Link
+                  target="_blank"
                   href={"/"}
                   className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-blue-500"
                 >
                   <BsTwitter />
-                </Link>
-                <Link
-                  href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-pink-500"
-                >
-                  <BsInstagram />
-                </Link>
-                <Link
-                  href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-blue-500"
-                >
-                  <BsFacebook />
                 </Link>
               </div>
             </div>
@@ -113,7 +103,7 @@ const About = () => {
             <div className="bg-gradient-to-r from-teal-500 to-cyan-600 p-4">
               <h3 className="text-xl font-semibold text-white">EXPERIENCE</h3>
               <p className="text-gray-300">
-                React developer ( Internship ) At Newtown It Solution
+                React developer ( Internship ) At Newtown It Service
               </p>
             </div>
             <div className="p-4">
@@ -125,7 +115,7 @@ const About = () => {
             </div>
             <div className="bg-gray-100 p-4 border-t border-gray-300 flex justify-between items-center">
               <div className="text-gray-600">
-                <p>Des/2022 - July/2023</p>
+                <p>Des/2022 - Oct/2023</p>
               </div>
             </div>
           </div>
