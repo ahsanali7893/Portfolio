@@ -40,7 +40,7 @@ const Hero = (props: any) => {
             <div className="flex flex-col justify-center sm:flex-row px-3 lg:justify-start">
               <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                 <p className="font-body text-lg uppercase text-white">
-                  Let's Connect
+                  Let&apos;s Connect
                 </p>
                 <div className="hidden sm:block">
                   <AiOutlineArrowRight className="text-3xl text-yellow-500" />
