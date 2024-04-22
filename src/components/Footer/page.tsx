@@ -1,6 +1,7 @@
 import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
 
 type Props = {};
 
@@ -13,16 +14,25 @@ const Footer = (props: Props) => {
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
           <Link
-            href="https://github.com/ahsanali7893"
-            className="mx-2 text-xl text-white transition duration-400 hover:text-gray-500"
+            href="https://www.linkedin.com/in/ahsan-ali-334403280/"
+            className="mx-2 text-xl transition duration-300 transform hover:scale-110"
+            target="_blank"
           >
-            <BsGithub />
+            <FaLinkedin className="text-white hover:text-blue-500" />
+          </Link>
+          <Link
+            href="https://github.com/ahsanali7893"
+            className="mx-2 text-xl transition duration-300 transform hover:scale-110"
+            target="_blank"
+          >
+            <BsGithub className="text-white hover:text-gray-500" />
           </Link>
           <Link
             href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
-            className="mx-2 text-xl text-white transition duration-400 hover:text-blue-500"
+            className="mx-2 text-xl transition duration-300 transform hover:scale-110"
+            target="_blank"
           >
-            <BsTwitter />
+            <BsTwitter className="text-white hover:text-blue-500" />
           </Link>
         </div>
       </div>

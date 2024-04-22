@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -40,18 +41,25 @@ const About = () => {
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                 <Link
+                  href="https://www.linkedin.com/in/ahsan-ali-334403280/"
+                  className="mx-2 text-xl transition duration-300 transform hover:scale-110"
                   target="_blank"
-                  href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-gray-500"
                 >
-                  <BsGithub />
+                  <FaLinkedin className="text-gray-500 hover:text-blue-500" />
                 </Link>
                 <Link
+                  href="https://github.com/ahsanali7893"
+                  className="mx-2 text-xl transition duration-300 transform hover:scale-110"
                   target="_blank"
-                  href={"/"}
-                  className="mx-2 text-xl text-gray-400 transition duration-400 hover:text-blue-500"
                 >
-                  <BsTwitter />
+                  <BsGithub className="text-gray-500" />
+                </Link>
+                <Link
+                  href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
+                  className="mx-2 text-xl transition duration-300 transform hover:scale-110"
+                  target="_blank"
+                >
+                  <BsTwitter className="text-gray-500 hover:text-blue-500" />
                 </Link>
               </div>
             </div>
