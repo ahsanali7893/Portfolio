@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillGithub } from "react-icons/ai";
 import { HiExternalLink } from "react-icons/hi";
 
 type Props = {};
