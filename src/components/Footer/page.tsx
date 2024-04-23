@@ -3,9 +3,7 @@ import { BsFacebook, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-teal-500 to-cyan-600">
       <div className="container flex flex-col justify-between py-6 sm:flex-row max-w-6xl mx-auto">

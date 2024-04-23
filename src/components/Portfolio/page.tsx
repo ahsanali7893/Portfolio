@@ -1,10 +1,10 @@
+"use client";
+import { HiExternalLink } from "react-icons/hi";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { HiExternalLink } from "react-icons/hi";
 
-type Props = {};
-
-const Portfolio = (props: Props) => {
+const Portfolio = () => {
   return (
     <section className="bg-gray-50" id="portfolio">
       <div className="container py-16 md:py-20 max-w-6xl mx-auto px-5">
@@ -15,7 +15,11 @@ const Portfolio = (props: Props) => {
           Here&apos;s what I have done with the past
         </h3>
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/Portfolio.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://fitness-w78k.vercel.app" target="_blank">
@@ -25,8 +29,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/codeswear.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://codeswear-self.vercel.app" target="_blank">
@@ -36,8 +44,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/trippy.PNG" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://travel-chi-black.vercel.app" target="_blank">
@@ -47,8 +59,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/textutils2.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://textutilsby.vercel.app" target="_blank">
@@ -58,8 +74,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/tilo.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link
@@ -72,8 +92,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/nsw.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://nsw-government.vercel.app/" target="_blank">
@@ -83,8 +107,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/swiftpay.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://www.swifteepay.com/" target="_blank">
@@ -94,8 +122,12 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
-          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black ">
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
+          >
             <Image width={1400} height={100} src="/dragsol.png" alt="" />
             <div className="flex items-center mt-3 justify-end">
               <Link href="https://www.dragsolution.com/" target="_blank">
@@ -105,7 +137,7 @@ const Portfolio = (props: Props) => {
                 />
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsTwitter } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 
 const About = () => {
