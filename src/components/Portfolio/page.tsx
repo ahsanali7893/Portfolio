@@ -17,6 +17,7 @@ const Portfolio = () => {
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -32,6 +33,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -47,6 +49,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -62,6 +65,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -77,6 +81,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -95,6 +100,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -110,6 +116,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
@@ -125,6 +132,7 @@ const Portfolio = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.1 }} 
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="mx-auto md:mx-0 shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-black hover:focus:shadow-black"
           >
