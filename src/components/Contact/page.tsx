@@ -97,7 +97,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <ToastContainer />
-      <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
+      <div className="pt-11 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
         <div className="w-full ">
           <div className="text-2xl items-center justify-center text-center">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-[#66b3b3] sm:text-5xl lg:text-6xl">

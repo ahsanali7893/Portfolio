@@ -16,21 +16,21 @@ const Footer = () => {
             className="mx-2 text-xl transition duration-300 transform hover:scale-110"
             target="_blank"
           >
-            <FaLinkedin className="text-white hover:text-blue-500" />
+            <FaLinkedin className="text-white hover:text-gray-300" />
           </Link>
           <Link
             href="https://github.com/ahsanali7893"
             className="mx-2 text-xl transition duration-300 transform hover:scale-110"
             target="_blank"
           >
-            <BsGithub className="text-white hover:text-gray-500" />
+            <BsGithub className="text-white hover:text-gray-300" />
           </Link>
           <Link
             href="https://twitter.com/EhsanAl13204331?t=sjfdVnaWqQ877jP5Gj-gvQ&s=09"
             className="mx-2 text-xl transition duration-300 transform hover:scale-110"
             target="_blank"
           >
-            <BsTwitter className="text-white hover:text-blue-500" />
+            <BsTwitter className="text-white hover:text-gray-300" />
           </Link>
         </div>
       </div>

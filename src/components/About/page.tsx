@@ -7,15 +7,15 @@ const About = () => {
   return (
     <section id="about">
       <div className="bg-gray-50" id="about">
-        <div className="container flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row px-5 max-w-7xl mx-auto">
-          <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+        <div className="flex flex-col justify-center items-center py-16 md:py-20 lg:flex-row px-5 max-w-6xl mx-auto">
+          <div className="w-full text-center sm:w-3/4 lg:w-full lg:text-left">
             <h2 className="font-header text-4xl font-semibold text-center uppercase text-primary sm:text-5xl lg:text-6xl text-cyan-600 ">
               Who I am?
             </h2>
             <h4 className="pt-6 font-header text-xl text-center font-medium text-black sm:text-2xl lg:text-3xl">
-              I&apos;m Ahsan Ali, a Web developer
+              I&apos;m Ahsan Ali, React, Next js Web developer
             </h4>
-            <p className="pt-6 font-body text-center leading-relaxed text-grey-20 font-bold">
+            <p className="pt-6 font-body text-justify leading-relaxed text-grey-20 w-full">
               My portfolio showcases my expertise in Next.js, React, Tailwind
               CSS, HTML, CSS, JavaScript, TypeScript, GitHub, and Git. Through
               my projects, I demonstrate proficiency in building modern web
