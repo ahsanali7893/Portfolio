@@ -33,7 +33,14 @@ const Hero = (props: any) => {
           <p className="text-lg sm:text-xl text-gray-300 mb-8">
             Frontend Developer | UI/UX Enthusiast
           </p>
-          <div className="flex flex-col items-center sm:flex-row justify-center sm:justify-between">
+          <div className="flex flex-col items-center sm:flex-row justify-center">
+            <Link
+              href="/resume.pdf"
+              target="_blank"
+              className="px-8 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+            >
+              Download CV
+            </Link>
             <div className="flex items-center mb-6 sm:mb-0">
               <Link
                 href="https://www.linkedin.com/in/ahsan-ali-334403280/"
@@ -57,13 +64,6 @@ const Hero = (props: any) => {
                 <BsTwitter className="text-white hover:text-blue-500" />
               </Link>
             </div>
-            <Link
-              href="/resume.pdf"
-              target="_blank"
-              className="px-8 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
-            >
-              Download CV
-            </Link>
           </div>
         </div>
       </div>
