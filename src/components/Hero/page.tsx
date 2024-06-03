@@ -33,7 +33,7 @@ const Hero = (props: any) => {
           <p className="text-lg sm:text-xl text-gray-300 mb-8">
             Frontend Developer | UI/UX Enthusiast
           </p>
-          <div className="flex flex-col items-center sm:flex-row justify-center">
+          <div className="flex flex-col items-center sm:flex-row justify-center sm:space-y-0 space-y-4">
             <Link
               href="/resume.pdf"
               target="_blank"
